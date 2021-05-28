@@ -98,6 +98,7 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
     public static final String KEY_ALLAPPS_THEMED_ICONS = "pref_allapps_themed_icons";
     public static final String KEY_ICON_SIZE = "pref_custom_icon_size";
     public static final String KEY_FONT_SIZE = "pref_custom_font_size";
+    public static final String KEY_MAX_LINES = "pref_max_lines";
 
     // Constants that affects the interpolation curve between statically defined device profile
     // buckets.
@@ -342,7 +343,7 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
-        if (KEY_SHOW_DESKTOP_LABELS.equals(key) || KEY_SHOW_DRAWER_LABELS.equals(key) || KEY_ALLAPPS_THEMED_ICONS.equals(key) || KEY_ICON_SIZE.equals(key) || KEY_FONT_SIZE.equals(key)) {
+        if (KEY_SHOW_DESKTOP_LABELS.equals(key) || KEY_SHOW_DRAWER_LABELS.equals(key) || KEY_ALLAPPS_THEMED_ICONS.equals(key) || KEY_ICON_SIZE.equals(key) || KEY_FONT_SIZE.equals(key) || KEY_MAX_LINES.equals(key)) {
             onConfigChanged(mContext);
         }
     }
