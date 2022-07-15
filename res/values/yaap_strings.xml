@@ -39,9 +39,7 @@
     <!-- Settings Categories -->
     <string name="category_icon">Icons</string>
     <string name="category_misc">Misc</string>
-
-    <!-- Recents -->
-    <string name="action_lens">Lens</string>
+    <string name="category_recents">Recents</string>
 
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Suggestions</string>
@@ -83,7 +81,12 @@
     <string name="desktop_show_labels">Show icon labels on desktop</string>
     <string name="drawer_show_labels">Show icon labels in drawer</string>
 
-    <!-- Settings Categories -->
-    <string name="category_icon">Icons</string>
+    <!-- Recents icons -->
+    <string name="recents_screenshot_title">Screenshot</string>
+    <string name="recents_screenshot_summary">Show screenshot button in recents</string>
+    <string name="recents_clear_all_title">Clear All</string>
+    <string name="recents_clear_all_summary">Show Clear All button in recents. When disabled, it mimics Pixel Launcher style</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="recents_lens_summary">Show lens button in recents</string>
 
 </resources>
