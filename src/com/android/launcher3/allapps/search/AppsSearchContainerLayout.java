@@ -116,7 +116,6 @@ public class AppsSearchContainerLayout extends ExtendedEditText
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
-
         // Shift the widget horizontally so that its centered in the parent (b/63428078)
         View parent = (View) getParent();
         int availableWidth = parent.getWidth() - parent.getPaddingLeft() - parent.getPaddingRight();

@@ -61,4 +61,5 @@
     <color name="material_color_primary">#ADC6FF</color>
     <color name="material_color_secondary">#BFC6DC</color>
     <color name="material_color_tertiary">#DEBCDF</color>
+    <color name="gicon_mask">#1AFFFFFF</color>
 </resources>

@@ -46,7 +46,6 @@
         @android:color/system_neutral2_200</color>
     <color name="widget_picker_collapse_handle_color_dark">
         @android:color/system_neutral2_700</color>
-
     <color name="work_fab_bg_color">
         @android:color/system_accent1_200</color>
     <color name="work_fab_icon_color">
@@ -86,7 +85,8 @@
     <color name="material_color_primary">@android:color/system_accent1_200</color>
     <color name="material_color_secondary">@android:color/system_accent2_200</color>
     <color name="material_color_tertiary">@android:color/system_accent3_200</color>
-    <color name="qsb_primary">@*android:color/system_accent3_100</color>
-    <color name="qsb_secondary">@*android:color/system_accent1_300</color>
-    <color name="qsb_quaternary">@*android:color/system_accent1_100</color>
+    <color name="qsb_primary">@android:color/system_accent1_100</color>
+    <color name="qsb_secondary">@android:color/system_accent1_200</color>
+    <color name="qsb_tertiary">@android:color/system_accent1_300</color> 
+    <color name="qsb_quaternary">@android:color/system_accent1_400</color>
 </resources>
