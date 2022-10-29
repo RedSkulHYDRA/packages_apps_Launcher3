@@ -89,7 +89,6 @@
             android:theme="@style/ThemeControlHighlightWorkspaceColor" />
 
         <Space
-            android:id="@+id/clear_all_space"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_weight="1" />
