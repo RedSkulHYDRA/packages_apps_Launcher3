@@ -123,7 +123,7 @@
     <string name="icon_max_lines_title">Max lines for app label</string>
 
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
+    <string name="meminfo_text">%1$s available | %2$s</string>
     <string name="recents_meminfo_title">Memory info</string>
     <string name="recents_meminfo_summary">Display the amount of total and available ram in recents</string>
 </resources>
