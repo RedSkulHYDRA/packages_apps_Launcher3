@@ -80,8 +80,10 @@
     <string name="smartspace_pref_summary">Show on the home screen -- introduces some jank</string>
 
     <!-- Hide labels -->
-    <string name="desktop_show_labels">Show icon labels on desktop</string>
-    <string name="drawer_show_labels">Show icon labels in drawer</string>
+    <string name="title_desktop_labels">Desktop labels</string>
+    <string name="summary_desktop_labels">Show icon labels on desktop</string>
+    <string name="title_drawer_labels">Drawer labels</string>
+    <string name="summary_drawer_labels">Show icon labels in drawer</string>
 
     <!-- Recents icons -->
     <string name="recents_screenshot_title">Screenshot</string>
