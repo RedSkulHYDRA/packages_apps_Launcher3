@@ -53,7 +53,7 @@
         android:defaultValue="true"
         android:persistent="true"/>
 
-   <androidx.preference.PreferenceCategory
+    <androidx.preference.PreferenceCategory
         android:key="google_category"
         android:title="@string/category_google">
 
@@ -211,6 +211,13 @@
     <androidx.preference.PreferenceCategory
         android:key="misc_category"
         android:title="@string/category_misc">
+
+    <SwitchPreference
+        android:key="pref_hide_top_shadow"
+        android:title="@string/hide_top_shadow_title"
+        android:summary="@string/hide_top_shadow_summary"
+        android:defaultValue="false"
+        android:persistent="true" />
 
     <com.android.launcher3.settings.preference.RestartPreference
         android:key="pref_restart"

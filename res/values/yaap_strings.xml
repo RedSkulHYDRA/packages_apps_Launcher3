@@ -126,4 +126,8 @@
     <string name="meminfo_text">%1$s available | %2$s</string>
     <string name="recents_meminfo_title">Memory info</string>
     <string name="recents_meminfo_summary">Display the amount of total and available ram in recents</string>
+
+    <!-- Hide top shadow -->
+    <string name="hide_top_shadow_title">Hide top shadow</string>
+    <string name="hide_top_shadow_summary">Remove shadow underneath the status bar</string>
 </resources>
